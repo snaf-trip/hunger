@@ -1,0 +1,11 @@
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 95%;
+  max-width: 1280px;
+  margin: auto;
+}

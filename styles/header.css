@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+}
+
+.header-menu-left,
+.header-menu-right {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+}
+
+.header-menu-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 133px;
+  height: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  margin-top: 25px;
+}
