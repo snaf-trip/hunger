@@ -1,0 +1,44 @@
+.main-block-content {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 249px;
+  color: #FFFFFF;
+}
+
+.name-and-buttons {
+  height: 100%;
+}
+
+.working-hours {
+  transform: rotate(-90deg);
+  font-size: 12px;
+}
+
+.span-restaurant {
+  font-size: 12px;
+  margin: 0 auto;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.main-blcok-title {
+  font-size: 96px;
+  margin: 0;
+}
+
+.mini-yellow-line {
+  width: 60px;
+  height: 5px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.button-book-table {
+  display: block;
+  min-width: 200px;
+  border-radius: 5px;
+  background: #E8C300;
+}
