@@ -5,6 +5,9 @@
 
 .header-menu-left,
 .header-menu-right {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
   display: flex;
   list-style: none;
   padding: 0;
