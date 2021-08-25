@@ -24,6 +24,7 @@
 }
 
 .team-content {
+  display: flex;
   margin-top: 100px;
   position: absolute;
   z-index: 2;
@@ -31,12 +32,12 @@
 
 .yellow-box-team {
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   top: 113px;
   width: 250px;
   height: 250px;
   border: 20px solid #E8C300;
-  filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0px 0px 100px #000000);
   border-radius: 5px;
 }
 
@@ -49,4 +50,41 @@
   margin-left: 113px;
   filter: drop-shadow(0px 0px 50px #000000);
   border-radius: 5px;
+}
+
+.team-text-content {
+  width: 599px;
+  margin: 117px 0 0 660px;
+}
+
+.team-title {
+  font-family: 'Banny', 'Gadget', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-yellow-line {
+  width: 60px;
+  height: 5px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin: 0 auto;
+
+}
+
+.team-p-bold {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: flex-end;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.team-p-light {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-size: 14px;
+  align-items: flex-end;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
 }
