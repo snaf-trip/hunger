@@ -28,6 +28,7 @@
 .p-bold {
   font-family: 'OpenSans', Helvetica, sans-serif;
   font-size: 18px;
+  line-height: 28px;
   font-weight: bold;
   align-items: flex-end;
   text-align: center;
@@ -36,6 +37,7 @@
 .p-light {
   font-family: 'OpenSans', Helvetica, sans-serif;
   font-size: 14px;
+  line-height: 24px;
   align-items: flex-end;
   text-align: center;
 }
