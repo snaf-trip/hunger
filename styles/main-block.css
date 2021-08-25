@@ -1,7 +1,6 @@
 .main-block-content {
-  display: flex;
-  /* align-items: center; */
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 245px 798px 237px;
   height: 249px;
   color: #FFFFFF;
 }
@@ -10,11 +9,14 @@
   height: 100%;
 }
 
-.working-hours {
+.div-working-hours {
   font-family: 'OpenSans', Helvetica, sans-serif;
   font-weight: bold;
   font-size: 12px;
   transform: rotate(-90deg);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 40px;
 }
 
 .span-restaurant {
@@ -22,8 +24,9 @@
   font-weight: bold;
   letter-spacing: 0.5em;
   font-size: 12px;
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -31,7 +34,9 @@
 .main-blcok-title {
   font-family: 'Banny', 'Gadget', sans-serif;
   font-size: 96px;
-  margin: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .mini-yellow-line {
@@ -56,6 +61,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: -moz-fit-content;
   width: fit-content;
   min-width: 200px;
   min-height: 60px;
@@ -70,6 +76,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: -moz-fit-content;
   width: fit-content;
   min-width: 200px;
   min-height: 60px;
@@ -79,4 +86,31 @@
   border-radius: 5px;
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.social-network {
+  display: flex;
+  align-items: center;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 160px;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+.social-item:last-child {
+  margin: 0;
 }
