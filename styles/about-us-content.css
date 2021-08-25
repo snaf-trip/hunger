@@ -1,9 +1,9 @@
 .about-us-content {
   display: flex;
-  margin-top: 200px;
+  margin: 200px 0 100px;
 }
 
-.text-content {
+.about-text-content {
   width: 600px;
   margin-top: 117px;
 }
@@ -17,7 +17,7 @@
   color: #000000;
 }
 
-.yellow-line {
+.about-yellow-line {
   width: 60px;
   height: 5px;
   background: #E8C300;
@@ -40,7 +40,7 @@
   text-align: center;
 }
 
-.img-content {
+.img-content-about {
   position: relative;
   margin-left: 80px;
 }
@@ -53,7 +53,7 @@
   border-radius: 5px;
 }
 
-.yellow-box {
+.yellow-box-about {
   position: absolute;
   z-index: 1;
   top: 113px;

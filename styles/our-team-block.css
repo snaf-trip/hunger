@@ -1,0 +1,87 @@
+.our-team-background {
+  width: 100%;
+  height: 675px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  background-color: #0f0a06;
+}
+
+.span-our-team {
+  display: block;
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5em;
+  margin: 45px auto 0 663px;
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+
+.team-content {
+  display: flex;
+  margin-top: 100px;
+  position: absolute;
+  z-index: 2;
+}
+
+.yellow-box-team {
+  position: absolute;
+  z-index: 4;
+  top: 113px;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+  filter: drop-shadow(0px 0px 100px #000000);
+  border-radius: 5px;
+}
+
+.team-img {
+  background-image: url('../img/chef.jpg');
+  width: 475px;
+  height: 475px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 113px;
+  filter: drop-shadow(0px 0px 50px #000000);
+  border-radius: 5px;
+}
+
+.team-text-content {
+  width: 599px;
+  margin: 117px 0 0 660px;
+}
+
+.team-title {
+  font-family: 'Banny', 'Gadget', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.team-yellow-line {
+  width: 60px;
+  height: 5px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin: 0 auto;
+
+}
+
+.team-p-bold {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: flex-end;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.team-p-light {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-size: 14px;
+  align-items: flex-end;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
