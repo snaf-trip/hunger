@@ -1,0 +1,66 @@
+.about-us-content {
+  display: flex;
+  margin-top: 200px;
+}
+
+.text-content {
+  width: 600px;
+  margin-top: 117px;
+}
+
+.about-us-title {
+  font-family: 'Banny', 'Gadget', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  margin: 0;
+  margin-left: 172px;
+  color: #000000;
+}
+
+.yellow-line {
+  width: 60px;
+  height: 5px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin: 10px 230px 0;
+}
+
+.p-bold {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.p-light {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-size: 14px;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.img-content {
+  position: relative;
+  margin-left: 80px;
+}
+
+.about-img {
+  background-image: url('../img/about-img.jpg');
+  width: 475px;
+  height: 475px;
+  filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+}
+
+.yellow-box {
+  position: absolute;
+  z-index: 1;
+  top: 113px;
+  left: 350px;
+  width: 250px;
+  height: 250px;
+  border: 20px solid #E8C300;
+  filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+}
