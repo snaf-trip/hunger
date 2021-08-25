@@ -1,0 +1,32 @@
+.delicious-menu {
+  position: absolute;
+  margin: 775px 375px;
+}
+
+.menu-title {
+  font-family: 'Banny', 'Gadget', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  color: #000000;
+}
+
+.menu-yellow-line {
+  width: 60px;
+  height: 5px;
+  background-color: #E8C300;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.menu-p-bold {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  align-items: flex-end;
+  text-align: center;
+  width: 525px;
+  color: #000000;
+}
