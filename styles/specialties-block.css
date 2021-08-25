@@ -112,3 +112,33 @@
 .page-active {
   background-color: #FFFFFF;
 }
+
+.specialties-line-left {
+  width: 1px;
+  height: 675px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  top: 0px;
+  left: 215px;
+}
+
+.specialties-line-center {
+  width: 1px;
+  height: 675px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  top: 0px;
+  left: 639px;
+}
+
+.specialties-line-right {
+  width: 1px;
+  height: 675px;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  top: 0px;
+  left: 1055px;
+}
