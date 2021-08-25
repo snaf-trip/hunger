@@ -17,7 +17,6 @@
   transform: rotate(-90deg);
   width: -moz-fit-content;
   width: fit-content;
-  padding-top: 40px;
 }
 
 .span-restaurant {
@@ -97,7 +96,7 @@
 .social-list {
   list-style: none;
   padding: 0;
-  margin: 0 0 0 160px;
+  margin: 0 0 0 180px;
 }
 
 .social-item {
