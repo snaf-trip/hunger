@@ -46,7 +46,7 @@
   display: flex;
   list-style: none;
   padding: 0;
-  margin-left: 227px;
+  margin: 0 0 51px 227px;
 }
 
 .delicious-menu-item {
@@ -63,8 +63,19 @@
   border: none;
 }
 
+.menu-table {
+  display: grid;
+  grid-template-columns: 363px 363px 363px;
+  grid-template-rows: 36px 36px 36px 36px 36px 36px 36px;
+  grid-column-gap: 82px;
+  grid-row-gap: 32px;
+  margin-left: 12.5px;
+}
+
 .menu-table-item {
   display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .table-item-title {
