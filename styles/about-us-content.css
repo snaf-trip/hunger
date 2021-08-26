@@ -20,7 +20,7 @@
 .about-yellow-line {
   width: 60px;
   height: 5px;
-  background: #E8C300;
+  background-color: #E8C300;
   border-radius: 50px;
   margin: 10px 230px 0;
 }
@@ -28,6 +28,7 @@
 .p-bold {
   font-family: 'OpenSans', Helvetica, sans-serif;
   font-size: 18px;
+  line-height: 28px;
   font-weight: bold;
   align-items: flex-end;
   text-align: center;
@@ -36,6 +37,7 @@
 .p-light {
   font-family: 'OpenSans', Helvetica, sans-serif;
   font-size: 14px;
+  line-height: 24px;
   align-items: flex-end;
   text-align: center;
 }
