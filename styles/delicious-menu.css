@@ -62,3 +62,30 @@
 .delicious-menu-item:last-child {
   border: none;
 }
+
+.menu-table-item {
+  display: flex;
+}
+
+.table-item-title {
+  font-family: 'Banny', 'Gadget', sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 18px;
+  margin: 0 15px 0 0;
+}
+
+.table-item-description {
+  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 5px 0 0 0;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.table-item-price {
+  font-family: 'Banny', 'Gadget', sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 18px;
+  margin: 0;
+}
