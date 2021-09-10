@@ -1,0 +1,12 @@
+.private-events-block {
+  margin-top: 3065px;
+}
+
+.private-bg {
+  width: 100%;
+  height: 675px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  background-color: #0f0a06;
+}
